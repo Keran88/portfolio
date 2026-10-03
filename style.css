@@ -10,7 +10,7 @@ nav{height:72px;position:sticky;top:0;z-index:20;display:flex;align-items:center
 .navlinks{display:flex;gap:28px}.navlinks a{font-size:13px;color:var(--muted);font-weight:600;transition:.2s}.navlinks a:hover,.navlinks a.active{color:var(--blue)}.menu{display:none;border:0;background:none;font-size:22px;color:var(--text)}
 header,main,footer{width:min(1160px,88%);margin:auto}
 header{min-height:calc(100vh - 72px);display:grid;grid-template-columns:1.2fr .8fr;gap:70px;align-items:center;padding:70px 0}
-.hero-name{font-size:clamp(36px,5vw,60px);font-weight:850;letter-spacing:-.045em;line-height:1;margin:0 0 20px;color:#183c6b}
+.hero-name{font-size:clamp(48px,7vw,80px);font-weight:850;letter-spacing:-.045em;line-height:1;margin:0 0 20px;color:#183c6b}
 .eyebrow,section small,.type{font-size:11px;font-weight:800;letter-spacing:.13em;color:var(--blue)}.eyebrow span{display:inline-block;width:8px;height:8px;background:#22a7a0;border-radius:50%;margin-right:7px;box-shadow:0 0 0 5px #e5f7f5}
 header h1{font-size:clamp(43px,6.4vw,76px);line-height:1.02;letter-spacing:-.055em;max-width:950px;margin:14px 0 24px;font-weight:800}header h1 em{font-style:normal;background:linear-gradient(90deg,#087e9b,var(--blue));-webkit-background-clip:text;background-clip:text;color:transparent}
 .lead{max-width:760px;color:var(--muted);font-size:18px}.buttons{display:flex;gap:11px;flex-wrap:wrap;margin-top:26px}.buttons a{padding:11px 17px;border:1px solid #cad8e7;border-radius:10px;font-size:13px;font-weight:700;background:white;transition:.2s}.buttons a:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(23,105,210,.11);border-color:#9ebce0}.buttons .primary{background:var(--blue);border-color:var(--blue);color:white}
